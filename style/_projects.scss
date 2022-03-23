@@ -1,0 +1,119 @@
+.projects {
+  background: linear-gradient(90deg, #504dc2 20.44%, #5f12d0 80.91%), #c4c4c4;
+  min-height: 490px;
+}
+.projects-wrap {
+  padding: 100px 0 70px;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-items: center;
+}
+.projectsTitle {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  color: #ffffff;
+}
+@media (max-width: 768px){
+  .projects-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    
+  }
+  .projectsTitle{
+    font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 30px;
+  }
+}
+
+
+
+.researches {
+  min-height: 482px;
+  position: relative;
+}
+.researches-wrap {
+	position: absolute;
+	top: -217px;
+	left: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 30px;
+}
+@media (max-width: 768px){
+  .researchesContent{
+    margin: 0 auto;
+}
+  .researches-wrap{
+  grid-template-columns: auto;
+}
+}
+.researchesTitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+  margin: 30px 0;
+}
+.researchesTitle span {
+  color: #4985ff;
+}
+.researchesText {
+	margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #999999;
+  width: 350px;
+}
+.researchesLink {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #4985ff;
+}
+
+.researches-hr{
+	border-bottom: 1px solid #E0E0E0;
+	position: relative;
+	top:397px ;
+}
+
+
+.weProjects {
+  min-height: 776px;
+  background: #F6F6F8;
+}
+.weProject-wrap {
+  padding: 100px 0 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.weProjectsTitle {
+  font-weight: bold;
+font-size: 36px;
+line-height: 53px;
+text-align: center;
+color: #000000;
+}
+.weProjectsText {
+  padding: 50px 190px 70px;
+  font-size: 16px;
+line-height: 25px;
+text-align: center;
+color: #999999;
+}
+.weProjectImg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.weProjectsButton {
+  margin-top: 50px;
+}

@@ -1,0 +1,59 @@
+.mobileApps {
+  min-height: 703px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobileAppsTitle {
+  margin: 110px 0 50px;
+  max-width: 739px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  color: #323232;
+}
+.mobileAppsText {
+  max-width: 730px;
+  margin: 0 0 70px;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #999999;
+}
+.createSiteWrap {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  display: grid;
+}
+@media (max-width: 768px) {
+  .createSiteWrap {
+    grid-template-columns: auto;
+  }
+}
+.createSite {
+  display: flex;
+}
+.createSiteImg {
+  position: relative;
+  top: -25px;
+  left: 0;
+}
+.createSiteTitle {
+  margin-left: 17px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.createSiteText {
+  margin-left: 17px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+}
+.createSiteButton {
+  margin: 55px 0 105px;
+}

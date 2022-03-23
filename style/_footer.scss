@@ -1,0 +1,55 @@
+.footer {
+  min-height: 413px;
+  background: #f6f6f8;
+}
+.footer-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0 30px;
+}
+.informations-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 43px;
+}
+.informations img {
+  position: relative;
+  top: 4px;
+  left: -15px;
+}
+.informationsTitle {
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.informationsList,
+.otherLinksList {
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+}
+.informationsList li,
+.otherLinksList li {
+  padding: 15px 0;
+}
+
+.otherLinksList li::before {
+  content: url(../img/Vector.svg);
+  margin-right: 13px;
+  width: 5px;
+  height: 9px;
+}
+.footerHr {
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  margin: 55px 0 30px;
+}
+.reserved {
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+  color: #999999;
+}
